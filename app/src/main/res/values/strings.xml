@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Countdown</string>
+
+    <string name = "toolbar_title">Sample Code</string>
+    <string name = "toolbar_subtitle">By Monroe Shed</string>
+
+    <!-- needed for instructions layout -->
+    <string name = "textview_introduction">The sample code shows use of Kotlin, Spinners, ImageButton, Notifications, EditTextLayout, Service, Broadcast Receiver, Intent Filters, ResultReceiver, Handler and pure Android coding.</string>
+    <string name = "textview_instructions">NOTE: Select a countdown time and press the button to begin.</string>
+
+    <!-- choices for spinner -->
+    <string-array name="spinner_entries">
+        <item>10 seconds</item>
+        <item>30 seconds</item>
+        <item>45 seconds</item>
+        <item>60 seconds</item>
+        <item>90 seconds</item>
+        <item>Custom&#8230;</item>
+    </string-array>
+
+    <string name="spinner_hint">Select seconds</string>
+    <string name = "edit_text_hint">Enter seconds&#8230;</string>
+    <string name = "error_greater_than_six_hundred_secs">Seconds must be less than 600</string>
+    <string name = "toast_start_countdown">Countdown has begun!</string>
+    <string name = "toast_end_countdown">Countdown complete!</string>
+
+    <!-- notification strings -->
+    <string name = "notification_title">Countdown</string>
+    <string name = "notification_channel_id">953359</string>
+    <string name = "notification_channel_name">Countdown Channel</string>
+    <string name = "notification_channel_description">Perform countdown operation for the user.</string>
+    <string name = "notification_seconds_plural">%1$d seconds remaining</string>
+    <string name = "notification_seconds_singular">1 second remaining</string>
+    <string name = "notification_button">Stop</string>
+
+    <!-- error messages -->
+    <string name = "error_custom_is_blank">Custom cannot be blank</string>
+    <string name = "error_custom_greater_than_nine_hundred">Custom cannot be greater than 900 seconds ( 15 minutes ).</string>
+
+    <!-- result strings -->
+    <string name = "result_service_is_running">Countdown Running: %1$d seconds remaining</string>
+
+</resources>

@@ -1,0 +1,35 @@
+<resources>
+
+
+
+
+
+    <style name="AppTheme" parent="CommonTheme">
+
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="CommonTheme" parent="Theme.AppCompat.Light">
+
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="android:spinnerItemStyle">@style/spinnerItemStyle</item>
+
+    </style>
+
+
+    <style name="spinnerItemStyle" parent="android:Widget.TextView.SpinnerItem">
+        <item name="android:textColor">@color/White</item>
+    </style>
+
+    <style name="spinnerTint" parent="Widget.AppCompat.Spinner">
+        <item name="backgroundTint">@color/White</item>
+    </style>
+
+</resources>
